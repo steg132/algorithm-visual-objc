@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7432931AD1A29000BD658F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432921AD1A29000BD658F /* main.m */; };
+		EF7432961AD1A29000BD658F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432951AD1A29000BD658F /* AppDelegate.m */; };
+		EF7432991AD1A29000BD658F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432981AD1A29000BD658F /* MasterViewController.m */; };
+		EF74329C1AD1A29000BD658F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF74329B1AD1A29000BD658F /* DetailViewController.m */; };
+		EF74329F1AD1A29000BD658F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF74329D1AD1A29000BD658F /* Main.storyboard */; };
+		EF7432A11AD1A29000BD658F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7432A01AD1A29000BD658F /* Images.xcassets */; };
+		EF7432A41AD1A29000BD658F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7432A21AD1A29000BD658F /* LaunchScreen.xib */; };
+		EF7432B01AD1A29000BD658F /* Algorithm_VisualizedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432AF1AD1A29000BD658F /* Algorithm_VisualizedTests.m */; };
+		EF7432BB1AD1A86E00BD658F /* BubbleSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432BA1AD1A86E00BD658F /* BubbleSortViewController.m */; };
+		EF7432BF1AD1C8FB00BD658F /* BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432BE1AD1C8FB00BD658F /* BarGraphView.m */; };
+		EF7432C41AD1FDC500BD658F /* MergeSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432C31AD1FDC500BD658F /* MergeSortViewController.m */; };
+		EF7432C71AD4AF9600BD658F /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432C61AD4AF9600BD658F /* SortViewController.m */; };
+		EF7432CB1AD4B48C00BD658F /* QuickSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432CA1AD4B48C00BD658F /* QuickSortViewController.m */; };
+		EF7432CF1AD765AB00BD658F /* RadixSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432CE1AD765AB00BD658F /* RadixSortViewController.m */; };
+		EF7432D41AD76DB900BD658F /* MazeBuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432D31AD76DB900BD658F /* MazeBuildViewController.m */; };
+		EF7432D71AD76E6100BD658F /* DepthFirstMazeBuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432D61AD76E6100BD658F /* DepthFirstMazeBuildViewController.m */; };
+		EF7432DB1AD7712E00BD658F /* MazeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432DA1AD7712E00BD658F /* MazeView.m */; };
+		EF7432DF1AD772D100BD658F /* MazeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7432DE1AD772D100BD658F /* MazeCell.m */; };
+		EF83FFCE1ADF524900EC1553 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83FFCD1ADF524900EC1553 /* Action.m */; };
+		EF83FFD01ADF54CB00EC1553 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83FFCF1ADF54CB00EC1553 /* SpriteKit.framework */; };
+		EF83FFD31ADF574C00EC1553 /* BubbleSortScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83FFD21ADF574C00EC1553 /* BubbleSortScene.m */; };
+		EF83FFD61ADF57C000EC1553 /* SortScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83FFD51ADF57C000EC1553 /* SortScene.m */; };
+		EF89A95D1AFAFCA000AF3EBA /* MergeSortScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89A95C1AFAFCA000AF3EBA /* MergeSortScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7432AA1AD1A29000BD658F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7432851AD1A29000BD658F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF74328C1AD1A29000BD658F;
+			remoteInfo = "Algorithm Visualized";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF74328D1AD1A29000BD658F /* Algorithm Visualized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm Visualized.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7432911AD1A29000BD658F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7432921AD1A29000BD658F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7432941AD1A29000BD658F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7432951AD1A29000BD658F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7432971AD1A29000BD658F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EF7432981AD1A29000BD658F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EF74329A1AD1A29000BD658F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EF74329B1AD1A29000BD658F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EF74329E1AD1A29000BD658F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7432A01AD1A29000BD658F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF7432A31AD1A29000BD658F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF7432A91AD1A29000BD658F /* Algorithm VisualizedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm VisualizedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7432AE1AD1A29000BD658F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7432AF1AD1A29000BD658F /* Algorithm_VisualizedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithm_VisualizedTests.m; sourceTree = "<group>"; };
+		EF7432B91AD1A86E00BD658F /* BubbleSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSortViewController.h; sourceTree = "<group>"; };
+		EF7432BA1AD1A86E00BD658F /* BubbleSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSortViewController.m; sourceTree = "<group>"; };
+		EF7432BD1AD1C8FB00BD658F /* BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphView.h; sourceTree = "<group>"; };
+		EF7432BE1AD1C8FB00BD658F /* BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphView.m; sourceTree = "<group>"; };
+		EF7432C21AD1FDC500BD658F /* MergeSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSortViewController.h; sourceTree = "<group>"; };
+		EF7432C31AD1FDC500BD658F /* MergeSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortViewController.m; sourceTree = "<group>"; };
+		EF7432C51AD4AF9600BD658F /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		EF7432C61AD4AF9600BD658F /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		EF7432C91AD4B48C00BD658F /* QuickSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortViewController.h; sourceTree = "<group>"; };
+		EF7432CA1AD4B48C00BD658F /* QuickSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSortViewController.m; sourceTree = "<group>"; };
+		EF7432CD1AD765AB00BD658F /* RadixSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadixSortViewController.h; sourceTree = "<group>"; };
+		EF7432CE1AD765AB00BD658F /* RadixSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadixSortViewController.m; sourceTree = "<group>"; };
+		EF7432D21AD76DB900BD658F /* MazeBuildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeBuildViewController.h; sourceTree = "<group>"; };
+		EF7432D31AD76DB900BD658F /* MazeBuildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeBuildViewController.m; sourceTree = "<group>"; };
+		EF7432D51AD76E6100BD658F /* DepthFirstMazeBuildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthFirstMazeBuildViewController.h; sourceTree = "<group>"; };
+		EF7432D61AD76E6100BD658F /* DepthFirstMazeBuildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepthFirstMazeBuildViewController.m; sourceTree = "<group>"; };
+		EF7432D91AD7712E00BD658F /* MazeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeView.h; sourceTree = "<group>"; };
+		EF7432DA1AD7712E00BD658F /* MazeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeView.m; sourceTree = "<group>"; };
+		EF7432DD1AD772D100BD658F /* MazeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeCell.h; sourceTree = "<group>"; };
+		EF7432DE1AD772D100BD658F /* MazeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeCell.m; sourceTree = "<group>"; };
+		EF83FFCC1ADF524900EC1553 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		EF83FFCD1ADF524900EC1553 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		EF83FFCF1ADF54CB00EC1553 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EF83FFD11ADF574C00EC1553 /* BubbleSortScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSortScene.h; sourceTree = "<group>"; };
+		EF83FFD21ADF574C00EC1553 /* BubbleSortScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSortScene.m; sourceTree = "<group>"; };
+		EF83FFD41ADF57C000EC1553 /* SortScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortScene.h; sourceTree = "<group>"; };
+		EF83FFD51ADF57C000EC1553 /* SortScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortScene.m; sourceTree = "<group>"; };
+		EF89A95B1AFAFCA000AF3EBA /* MergeSortScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSortScene.h; sourceTree = "<group>"; };
+		EF89A95C1AFAFCA000AF3EBA /* MergeSortScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF74328A1AD1A29000BD658F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF83FFD01ADF54CB00EC1553 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7432A61AD1A29000BD658F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7432841AD1A29000BD658F = {
+			isa = PBXGroup;
+			children = (
+				EF74328F1AD1A29000BD658F /* Algorithm Visualized */,
+				EF83FFCF1ADF54CB00EC1553 /* SpriteKit.framework */,
+				EF7432AC1AD1A29000BD658F /* Algorithm VisualizedTests */,
+				EF74328E1AD1A29000BD658F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF74328E1AD1A29000BD658F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF74328D1AD1A29000BD658F /* Algorithm Visualized.app */,
+				EF7432A91AD1A29000BD658F /* Algorithm VisualizedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF74328F1AD1A29000BD658F /* Algorithm Visualized */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432DC1AD772B100BD658F /* Data */,
+				EF7432D81AD7710300BD658F /* Sort */,
+				EF7432D01AD76D8E00BD658F /* Maze Building */,
+				EF7432BC1AD1A87500BD658F /* Views */,
+				EF7432941AD1A29000BD658F /* AppDelegate.h */,
+				EF7432951AD1A29000BD658F /* AppDelegate.m */,
+				EF7432971AD1A29000BD658F /* MasterViewController.h */,
+				EF7432981AD1A29000BD658F /* MasterViewController.m */,
+				EF74329A1AD1A29000BD658F /* DetailViewController.h */,
+				EF74329B1AD1A29000BD658F /* DetailViewController.m */,
+				EF74329D1AD1A29000BD658F /* Main.storyboard */,
+				EF7432A01AD1A29000BD658F /* Images.xcassets */,
+				EF7432A21AD1A29000BD658F /* LaunchScreen.xib */,
+				EF7432901AD1A29000BD658F /* Supporting Files */,
+			);
+			path = "Algorithm Visualized";
+			sourceTree = "<group>";
+		};
+		EF7432901AD1A29000BD658F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432911AD1A29000BD658F /* Info.plist */,
+				EF7432921AD1A29000BD658F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7432AC1AD1A29000BD658F /* Algorithm VisualizedTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432AF1AD1A29000BD658F /* Algorithm_VisualizedTests.m */,
+				EF7432AD1AD1A29000BD658F /* Supporting Files */,
+			);
+			path = "Algorithm VisualizedTests";
+			sourceTree = "<group>";
+		};
+		EF7432AD1AD1A29000BD658F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432AE1AD1A29000BD658F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7432BC1AD1A87500BD658F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432BD1AD1C8FB00BD658F /* BarGraphView.h */,
+				EF7432BE1AD1C8FB00BD658F /* BarGraphView.m */,
+				EF7432D91AD7712E00BD658F /* MazeView.h */,
+				EF7432DA1AD7712E00BD658F /* MazeView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF7432C01AD1FD9500BD658F /* Bubble Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432B91AD1A86E00BD658F /* BubbleSortViewController.h */,
+				EF7432BA1AD1A86E00BD658F /* BubbleSortViewController.m */,
+				EF83FFD11ADF574C00EC1553 /* BubbleSortScene.h */,
+				EF83FFD21ADF574C00EC1553 /* BubbleSortScene.m */,
+			);
+			name = "Bubble Sort";
+			sourceTree = "<group>";
+		};
+		EF7432C11AD1FDA700BD658F /* Merge Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432C21AD1FDC500BD658F /* MergeSortViewController.h */,
+				EF7432C31AD1FDC500BD658F /* MergeSortViewController.m */,
+				EF89A95B1AFAFCA000AF3EBA /* MergeSortScene.h */,
+				EF89A95C1AFAFCA000AF3EBA /* MergeSortScene.m */,
+			);
+			name = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		EF7432C81AD4B47500BD658F /* Quick Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432C91AD4B48C00BD658F /* QuickSortViewController.h */,
+				EF7432CA1AD4B48C00BD658F /* QuickSortViewController.m */,
+			);
+			name = "Quick Sort";
+			sourceTree = "<group>";
+		};
+		EF7432CC1AD762F100BD658F /* Radix Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432CD1AD765AB00BD658F /* RadixSortViewController.h */,
+				EF7432CE1AD765AB00BD658F /* RadixSortViewController.m */,
+			);
+			name = "Radix Sort";
+			sourceTree = "<group>";
+		};
+		EF7432D01AD76D8E00BD658F /* Maze Building */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432D11AD76D9F00BD658F /* DepthFirst */,
+				EF7432D21AD76DB900BD658F /* MazeBuildViewController.h */,
+				EF7432D31AD76DB900BD658F /* MazeBuildViewController.m */,
+			);
+			name = "Maze Building";
+			sourceTree = "<group>";
+		};
+		EF7432D11AD76D9F00BD658F /* DepthFirst */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432D51AD76E6100BD658F /* DepthFirstMazeBuildViewController.h */,
+				EF7432D61AD76E6100BD658F /* DepthFirstMazeBuildViewController.m */,
+			);
+			name = DepthFirst;
+			sourceTree = "<group>";
+		};
+		EF7432D81AD7710300BD658F /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432C51AD4AF9600BD658F /* SortViewController.h */,
+				EF7432C61AD4AF9600BD658F /* SortViewController.m */,
+				EF83FFD41ADF57C000EC1553 /* SortScene.h */,
+				EF83FFD51ADF57C000EC1553 /* SortScene.m */,
+				EF7432C01AD1FD9500BD658F /* Bubble Sort */,
+				EF7432C11AD1FDA700BD658F /* Merge Sort */,
+				EF7432C81AD4B47500BD658F /* Quick Sort */,
+				EF7432CC1AD762F100BD658F /* Radix Sort */,
+			);
+			name = Sort;
+			sourceTree = "<group>";
+		};
+		EF7432DC1AD772B100BD658F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EF7432DD1AD772D100BD658F /* MazeCell.h */,
+				EF7432DE1AD772D100BD658F /* MazeCell.m */,
+				EF83FFCC1ADF524900EC1553 /* Action.h */,
+				EF83FFCD1ADF524900EC1553 /* Action.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF74328C1AD1A29000BD658F /* Algorithm Visualized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7432B31AD1A29000BD658F /* Build configuration list for PBXNativeTarget "Algorithm Visualized" */;
+			buildPhases = (
+				EF7432891AD1A29000BD658F /* Sources */,
+				EF74328A1AD1A29000BD658F /* Frameworks */,
+				EF74328B1AD1A29000BD658F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algorithm Visualized";
+			productName = "Algorithm Visualized";
+			productReference = EF74328D1AD1A29000BD658F /* Algorithm Visualized.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7432A81AD1A29000BD658F /* Algorithm VisualizedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7432B61AD1A29000BD658F /* Build configuration list for PBXNativeTarget "Algorithm VisualizedTests" */;
+			buildPhases = (
+				EF7432A51AD1A29000BD658F /* Sources */,
+				EF7432A61AD1A29000BD658F /* Frameworks */,
+				EF7432A71AD1A29000BD658F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7432AB1AD1A29000BD658F /* PBXTargetDependency */,
+			);
+			name = "Algorithm VisualizedTests";
+			productName = "Algorithm VisualizedTests";
+			productReference = EF7432A91AD1A29000BD658F /* Algorithm VisualizedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7432851AD1A29000BD658F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ryan Schumacher";
+				TargetAttributes = {
+					EF74328C1AD1A29000BD658F = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W3AFUF35JA;
+					};
+					EF7432A81AD1A29000BD658F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EF74328C1AD1A29000BD658F;
+					};
+				};
+			};
+			buildConfigurationList = EF7432881AD1A29000BD658F /* Build configuration list for PBXProject "Algorithm Visualized" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7432841AD1A29000BD658F;
+			productRefGroup = EF74328E1AD1A29000BD658F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF74328C1AD1A29000BD658F /* Algorithm Visualized */,
+				EF7432A81AD1A29000BD658F /* Algorithm VisualizedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF74328B1AD1A29000BD658F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF74329F1AD1A29000BD658F /* Main.storyboard in Resources */,
+				EF7432A41AD1A29000BD658F /* LaunchScreen.xib in Resources */,
+				EF7432A11AD1A29000BD658F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7432A71AD1A29000BD658F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7432891AD1A29000BD658F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7432961AD1A29000BD658F /* AppDelegate.m in Sources */,
+				EF7432CF1AD765AB00BD658F /* RadixSortViewController.m in Sources */,
+				EF7432BB1AD1A86E00BD658F /* BubbleSortViewController.m in Sources */,
+				EF7432991AD1A29000BD658F /* MasterViewController.m in Sources */,
+				EF7432CB1AD4B48C00BD658F /* QuickSortViewController.m in Sources */,
+				EF7432931AD1A29000BD658F /* main.m in Sources */,
+				EF74329C1AD1A29000BD658F /* DetailViewController.m in Sources */,
+				EF7432D71AD76E6100BD658F /* DepthFirstMazeBuildViewController.m in Sources */,
+				EF7432C41AD1FDC500BD658F /* MergeSortViewController.m in Sources */,
+				EF7432DB1AD7712E00BD658F /* MazeView.m in Sources */,
+				EF7432C71AD4AF9600BD658F /* SortViewController.m in Sources */,
+				EF7432D41AD76DB900BD658F /* MazeBuildViewController.m in Sources */,
+				EF83FFCE1ADF524900EC1553 /* Action.m in Sources */,
+				EF83FFD61ADF57C000EC1553 /* SortScene.m in Sources */,
+				EF7432DF1AD772D100BD658F /* MazeCell.m in Sources */,
+				EF83FFD31ADF574C00EC1553 /* BubbleSortScene.m in Sources */,
+				EF7432BF1AD1C8FB00BD658F /* BarGraphView.m in Sources */,
+				EF89A95D1AFAFCA000AF3EBA /* MergeSortScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7432A51AD1A29000BD658F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7432B01AD1A29000BD658F /* Algorithm_VisualizedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7432AB1AD1A29000BD658F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF74328C1AD1A29000BD658F /* Algorithm Visualized */;
+			targetProxy = EF7432AA1AD1A29000BD658F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF74329D1AD1A29000BD658F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF74329E1AD1A29000BD658F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7432A21AD1A29000BD658F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7432A31AD1A29000BD658F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7432B11AD1A29000BD658F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7432B21AD1A29000BD658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7432B41AD1A29000BD658F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Algorithm Visualized/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7432B51AD1A29000BD658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Algorithm Visualized/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7432B71AD1A29000BD658F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Algorithm VisualizedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm Visualized.app/Algorithm Visualized";
+			};
+			name = Debug;
+		};
+		EF7432B81AD1A29000BD658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Algorithm VisualizedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm Visualized.app/Algorithm Visualized";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7432881AD1A29000BD658F /* Build configuration list for PBXProject "Algorithm Visualized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7432B11AD1A29000BD658F /* Debug */,
+				EF7432B21AD1A29000BD658F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7432B31AD1A29000BD658F /* Build configuration list for PBXNativeTarget "Algorithm Visualized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7432B41AD1A29000BD658F /* Debug */,
+				EF7432B51AD1A29000BD658F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7432B61AD1A29000BD658F /* Build configuration list for PBXNativeTarget "Algorithm VisualizedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7432B71AD1A29000BD658F /* Debug */,
+				EF7432B81AD1A29000BD658F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7432851AD1A29000BD658F /* Project object */;
+}
